@@ -1,0 +1,22 @@
+
+body {
+    margin: 0;
+    height: 100%;
+}
+
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 1.4fr 5fr;
+}
+
+.container > div {
+    border: 1px solid black;
+}
+
+.sidebar {
+    grid-row: 1 / 3;
+}
+
+.
